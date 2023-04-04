@@ -1,0 +1,15 @@
+/Users/sedatakdogan/Desktop/C#/first/first/bin/Debug/net7.0/first
+/Users/sedatakdogan/Desktop/C#/first/first/bin/Debug/net7.0/first.deps.json
+/Users/sedatakdogan/Desktop/C#/first/first/bin/Debug/net7.0/first.runtimeconfig.json
+/Users/sedatakdogan/Desktop/C#/first/first/bin/Debug/net7.0/first.dll
+/Users/sedatakdogan/Desktop/C#/first/first/bin/Debug/net7.0/first.pdb
+/Users/sedatakdogan/Desktop/C#/first/first/obj/Debug/net7.0/first.csproj.AssemblyReference.cache
+/Users/sedatakdogan/Desktop/C#/first/first/obj/Debug/net7.0/first.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sedatakdogan/Desktop/C#/first/first/obj/Debug/net7.0/first.AssemblyInfoInputs.cache
+/Users/sedatakdogan/Desktop/C#/first/first/obj/Debug/net7.0/first.AssemblyInfo.cs
+/Users/sedatakdogan/Desktop/C#/first/first/obj/Debug/net7.0/first.csproj.CoreCompileInputs.cache
+/Users/sedatakdogan/Desktop/C#/first/first/obj/Debug/net7.0/first.dll
+/Users/sedatakdogan/Desktop/C#/first/first/obj/Debug/net7.0/refint/first.dll
+/Users/sedatakdogan/Desktop/C#/first/first/obj/Debug/net7.0/first.pdb
+/Users/sedatakdogan/Desktop/C#/first/first/obj/Debug/net7.0/first.genruntimeconfig.cache
+/Users/sedatakdogan/Desktop/C#/first/first/obj/Debug/net7.0/ref/first.dll
