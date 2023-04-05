@@ -1,24 +1,100 @@
 ﻿class Hello
 {
+    //static void Main(string[] args)
+    //{
+    //    // creating a dictionary
+    //    System.Collections.Generic.Dictionary<string, string> myDict = new System.Collections.Generic.Dictionary<string, string>();
+    //    myDict.Add("one", "two");
+    //    myDict.Add("two", "four");
+    //    myDict.Add("five", "ten");
+    //    myDict.Add("nine", "eighteen");
+
+    //    foreach (System.Collections.Generic.KeyValuePair<string, string> el in myDict )
+    //    {
+    //        System.Console.WriteLine(el);
+    //    }
+    //}
+
     static void Main(string[] args)
     {
-        // this is a single line comment
-        System.Console.WriteLine("Hello World");
-
-        /*
-         * this is 
-         * a multi line
-         * comments
-         * you can use as many line you like.
-         */
-        System.Console.WriteLine(5.5);
-        System.Console.WriteLine(5.5 * 5 + 11);
-        System.Console.WriteLine(100 % 6);
+        System.Collections.Generic.List<int> theList = new System.Collections.Generic.List<int>();
+        theList.Add(1234);
+        theList.Add(4567);
+        theList.Add(99);
+        theList.Add(5);
+        System.Console.WriteLine(theList.Count);
     }
-}
 
-/* C# Built in Data Types:
- * Numbers; Integers and Floating point numbers
- * Strings; all sort of strings
- * Boolean; either true of false values.
- */
+    //C# Arrays and Lists
+    //static void Main(string[] args)
+    //{
+    //    int[] myList= { 12, 34, 45, 56, 67 };
+    //    System.Console.WriteLine(myList[1]);
+    //    myList[1] = 33;
+    //    // creating a list from an array;
+    //    System.Collections.Generic.List<int> myList2 = new System.Collections.Generic.List<int>(myList);
+    //    //myList.Add(77);
+    //    myList[0] = 99;
+    //    foreach (int element in myList)
+    //    {
+    //        System.Console.WriteLine(element);
+    //    }
+    //    System.Console.WriteLine(myList);
+    //}
+
+    //Control flow
+    //static void Main(string[] args)
+    //{
+    //    int timeOfday = 20;
+    //    if (timeOfday >= 5 && timeOfday <= 12) // logical AND
+    //    {
+    //        System.Console.WriteLine("Good Morning");
+    //    } else if (timeOfday >= 12 && timeOfday <= 18)
+    //    {
+    //        System.Console.WriteLine("Good afternoon");
+    //    } else
+    //    {
+    //        System.Console.WriteLine("Good evening");
+    //    }
+    //}
+
+    //static void Main(string[] args)
+    //{
+    //    string message = "JS is the best programming language";
+    //    int location = message.IndexOf("JS");
+    //    string newMessage = "C#" + message.Substring(location + 2);
+    //    System.Console.WriteLine(newMessage);
+    //}
+
+    //static void Main(string[] args)
+    //{
+    //    int b; // declaretion
+    //    b = 456; // initialisation
+    //    int a = 123; // declaration and assignment
+    //    double c = 45.56;
+    //    string firstName = "alperen";
+    //    string lastName = "akdogan";
+    //    System.Console.WriteLine(a);
+    //    System.Console.WriteLine(b);
+    //    System.Console.WriteLine(c);
+    //    System.Console.WriteLine(c + a);
+    //    System.Console.WriteLine(firstName);
+    //    System.Console.WriteLine(firstName + "\'s last name is \"" + lastName + "\"");
+    //}
+
+    //static void Main(string[] args)
+    //{
+    //    int a = 12;
+    //    double b = 1.6;
+    //    System.Console.WriteLine(a / b);
+    //}
+
+    //static void Main(string[] args)
+    //{
+    //    System.Console.WriteLine(4 == 4); // comparision, true
+    //    System.Console.WriteLine(4 != 9); // true
+    //    System.Console.WriteLine(4 < 8); // true
+    //    System.Console.WriteLine(3 > "10".Length); // true
+    //    System.Console.WriteLine(System.Boolean.Parse("trUE")); // convert a string into a Boolean value
+    //}
+}
