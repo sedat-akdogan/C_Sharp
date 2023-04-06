@@ -1,8 +1,7 @@
 ﻿<Properties StartupConfiguration="{94184EC7-5D55-4112-ACDE-6DBE54CEBFB9}|Default">
-  <MonoDevelop.Ide.ItemProperties.first PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="first/Boolean.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="first/Hello.cs">
     <Files>
-      <File FileName="first/Boolean.cs" Line="28" Column="17" />
+      <File FileName="first/Boolean.cs" Line="17" Column="6" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -14,10 +13,11 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.first PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>
