@@ -1,5 +1,29 @@
-﻿class Hello
+﻿using System.Diagnostics;
+
+class Hello
 {
+    // While Loop
+
+    static void Main(string[] args)
+    {
+        int counter = 0;
+        while (counter < 10)
+        {
+            System.Console.WriteLine("Counter: " + counter);
+            counter++;
+        }
+    }
+
+
+    //static void Main(string[] args)
+    //{
+    //    bool loopControl = true;
+    //    while (loopControl)
+    //    {
+    //        System.Console.WriteLine("this is a while loop output!!");
+    //    }
+    //}
+
     //static void Main(string[] args)
     //{
     //    // creating a dictionary
@@ -15,15 +39,15 @@
     //    }
     //}
 
-    static void Main(string[] args)
-    {
-        System.Collections.Generic.List<int> theList = new System.Collections.Generic.List<int>();
-        theList.Add(1234);
-        theList.Add(4567);
-        theList.Add(99);
-        theList.Add(5);
-        System.Console.WriteLine(theList.Count);
-    }
+    //static void Main(string[] args)
+    //{
+    //    System.Collections.Generic.List<int> theList = new System.Collections.Generic.List<int>();
+    //    theList.Add(1234);
+    //    theList.Add(4567);
+    //    theList.Add(99);
+    //    theList.Add(5);
+    //    System.Console.WriteLine(theList.Count);
+    //}
 
     //C# Arrays and Lists
     //static void Main(string[] args)
