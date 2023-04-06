@@ -3,7 +3,24 @@ using System.Xml.Linq;
 
 class Hello
 {
+    // Functions
+    static void printSome(string fullName)
+    {
+        Console.WriteLine("The full name is " + fullName);
+    }
+    static string makeFullName(string firstName, string lastName)
+    {
+        string fullName = firstName + " " + lastName;
+        return fullName;
+    }
+    static void Main(string[] args)
+    {
+        printSome(makeFullName("Adjoa", "Akdogan"));
+    }
+
+
     // For Loop
+    /*
     static void Main(string[] srgs)
     {
         int[] intArray = { 1, 3, 5, 7, 9, 45, 3265 };
@@ -30,7 +47,7 @@ class Hello
             Console.WriteLine("Element number " +i + " is " + nameList[i]);
         }
     }
-
+    */
 
     // Number guessing game with While Loop
     //static void Main(string[] args)
