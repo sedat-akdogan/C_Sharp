@@ -1,18 +1,44 @@
-﻿using System.Diagnostics;
+﻿using System;
 
 class Hello
 {
-    // While Loop
-
+    // Number guessing game with While Loop
     static void Main(string[] args)
     {
-        int counter = 0;
-        while (counter < 10)
+        Random rand = new Random();
+        int randomNumber = rand.Next(1, 100);
+        int guess;
+        bool continueGame = true;
+        while (continueGame)
         {
-            System.Console.WriteLine("Counter: " + counter);
-            counter++;
+            Console.WriteLine("Enter a guess: ");
+            guess = Convert.ToInt32(Console.ReadLine());
+            if (guess < randomNumber)
+            {
+                Console.WriteLine("You have guessed low!");
+            } else if (guess > randomNumber)
+            {
+                Console.WriteLine("You have guessed high!");
+            } else
+            {
+                Console.WriteLine("You have guessed right!!");
+                continueGame = false;
+            }
         }
     }
+
+
+    // While Loop
+
+    //static void Main(string[] args)
+    //{
+    //    int counter = 0;
+    //    while (counter < 10)
+    //    {
+    //        System.Console.WriteLine("Counter: " + counter);
+    //        counter++;
+    //    }
+    //}
 
 
     //static void Main(string[] args)
