@@ -1,31 +1,61 @@
 ﻿using System;
+using System.Xml.Linq;
 
 class Hello
 {
-    // Number guessing game with While Loop
-    static void Main(string[] args)
+    // For Loop
+    static void Main(string[] srgs)
     {
-        Random rand = new Random();
-        int randomNumber = rand.Next(1, 100);
-        int guess;
-        bool continueGame = true;
-        while (continueGame)
+        int[] intArray = { 1, 3, 5, 7, 9, 45, 3265 };
+        List<string> nameList = new List<string>();
+        nameList.Add("alperen akd");
+        nameList.Add("azra akd");
+        nameList.Add("esra akd");
+        nameList.Add("sultan akd");
+        nameList.Add("adjoa akd");
+        foreach (int element in intArray)
         {
-            Console.WriteLine("Enter a guess: ");
-            guess = Convert.ToInt32(Console.ReadLine());
-            if (guess < randomNumber)
-            {
-                Console.WriteLine("You have guessed low!");
-            } else if (guess > randomNumber)
-            {
-                Console.WriteLine("You have guessed high!");
-            } else
-            {
-                Console.WriteLine("You have guessed right!!");
-                continueGame = false;
-            }
+            Console.WriteLine(element);
+        }
+        foreach (string element in nameList)
+        {
+            Console.WriteLine(element);
+        }
+        for (int i=0; i<intArray.Length; i++)
+        {
+            Console.WriteLine(intArray[i]);
+        }
+        for (int i=0; i<nameList.Count; i++)
+        {
+            Console.WriteLine("Element number " +i + " is " + nameList[i]);
         }
     }
+
+
+    // Number guessing game with While Loop
+    //static void Main(string[] args)
+    //{
+    //    Random rand = new Random();
+    //    int randomNumber = rand.Next(1, 100);
+    //    int guess;
+    //    bool continueGame = true;
+    //    while (continueGame)
+    //    {
+    //        Console.WriteLine("Enter a guess: ");
+    //        guess = Convert.ToInt32(Console.ReadLine());
+    //        if (guess < randomNumber)
+    //        {
+    //            Console.WriteLine("You have guessed low!");
+    //        } else if (guess > randomNumber)
+    //        {
+    //            Console.WriteLine("You have guessed high!");
+    //        } else
+    //        {
+    //            Console.WriteLine("You have guessed right!!");
+    //            continueGame = false;
+    //        }
+    //    }
+    //}
 
 
     // While Loop
